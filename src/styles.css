@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  /* height: 100vh; */
+}
+
+/* Toast css */
+.toast-normal {
+  border: 2px solid gray;
+  padding: 5px;
+  color: black;
+}
+
+.toast-error {
+  border: 2px solid red;
+  padding: 5px;
+  color: red;
+  font-weight: bold;
+}
+
+.toast-success {
+  border: 2px solid green;
+  padding: 5px;
+  color: lime;
+}
+
+.toast-warning {
+  border: 2px solid red;
+  padding: 5px;
+  color: red;
+}
+
+.toast-button {
+  margin: 0px 15px;
+}
+
+/* Like in a List css */
+.like:hover {
+  cursor: pointer;
+}
+
+.listCard {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 6px auto;
+  width: 400px;
+}
+
+.btn {
+  float: right;
+}
